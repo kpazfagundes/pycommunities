@@ -1,7 +1,7 @@
 [
 	{
 		"background": "#2980B9",
-		"imgSrc": "https://s3-us-west-1.amazonaws.com/co-directory-images/karine-paz-fagundes-cordeiro-51033925.jpg",
+		"imgSrc": "https://github.com/kpazfagundes/pycommunities/blob/master/src/Images/claudia.jpg",
 		"imgBorderColor": "#015389",
 		"name": "Cláudia Cruz Machado",
 		"title": "Criando Histórias Interativas com Ren'Py",
@@ -12,7 +12,7 @@
 	},
 	{
 		"background": "#27AE60",
-		"imgSrc": "/Images/bruno.jpg",
+		"imgSrc": "https://github.com/kpazfagundes/pycommunities/blob/master/src/Images/bruno.jpg",
 		"imgBorderColor": "#086C32",
 		"name": "Bruno Scott",
 		"title": "Customer Success e Python. Como tornar essa soma sempre positiva!",
@@ -23,7 +23,7 @@
 	},
 	{
 		"background": "#9B27AE",
-		"imgSrc": "",
+		"imgSrc": "https://github.com/kpazfagundes/pycommunities/blob/master/src/Images/joselia.jpeg",
 		"imgBorderColor": "#6A067A",
 		"name": "Joselia Pires",
 		"title": "Desenvolvimento de sistemas complexos por meio da linguagem Python e biblioteca OpenCV",

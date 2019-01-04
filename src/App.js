@@ -13,7 +13,7 @@ const styles = theme => ({
     width: '95%',
     verticalAlign: 'middle',
     margin: 20,
-    backgroundColor: '#0000ff'
+    backgroundColor: '#6200EE'
   },
   headingTop: {
     fontSize: theme.typography.pxToRem(18),
@@ -52,7 +52,7 @@ const styles = theme => ({
     
   },
   back1: {
-    backgroundColor: '#FFF59D'
+    backgroundColor: '#ffef62'
   },
   bigAvatar: {
     margin: 10,

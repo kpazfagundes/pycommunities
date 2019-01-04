@@ -1,0 +1,35 @@
+[
+	{
+		"background": "#2980B9",
+		"imgSrc": "https://s3-us-west-1.amazonaws.com/co-directory-images/karine-paz-fagundes-cordeiro-51033925.jpg",
+		"imgBorderColor": "#015389",
+		"name": "Cláudia Cruz Machado",
+		"title": "Criando Histórias Interativas com Ren'Py",
+		"detail": "Cláudia é professora de inglês, mas programa por diversão há alguns anos. É curiosa, e ama descobrir e aprender coisas por si mesma. Seu mais novo objetivo é transformar seu amor por programação em algo mais que um hobby. Ela também ama escrever ficção, e tenta combinar suas diferentes paixões em seus projetos. Você pode encontrá-la no twitter como @ravenclaudia. ",
+		"dinamica": "A apresentação mostrará como utilizar Ren'Py para criar histórias interativas com estilo de visual novels de forma rápida e fácil. ",
+		"role": "Ren'Py",
+		"classStyle": "ControlledExpansionPanels-back1-4" 
+	},
+	{
+		"background": "#27AE60",
+		"imgSrc": "/Images/bruno.jpg",
+		"imgBorderColor": "#086C32",
+		"name": "Bruno Scott",
+		"title": "Customer Success e Python. Como tornar essa soma sempre positiva!",
+		"detail": "Sou Head de Customer Success e Agente de inovação na W12 - inovações tecnológicas e tivemos o grande desafio de alinhar as comunicações entre Desenvolvedores e cliente. ",
+		"dinamica": "Realizar a conexão entre o mundo e visão do cliente com a facilidade, velocidade e adaptabilidade que a linguagem Phyton proporciona. ",
+		"role": "Customer Success, Conceitual, Geral ",
+		"classStyle": "ControlledExpansionPanels-back2-4" 
+	},
+	{
+		"background": "#9B27AE",
+		"imgSrc": "",
+		"imgBorderColor": "#6A067A",
+		"name": "Joselia Pires",
+		"title": "Desenvolvimento de sistemas complexos por meio da linguagem Python e biblioteca OpenCV",
+		"detail": "Sou Cientista da Computação e apaixonada por programação, a primeira linguagem a qual tive contato foi Python. Por meio dela pude desenvolver distintas aplicações, dentre elas, um sistema de detecção sanguínea.",
+		"dinamica": "A apresentação irá abordar a importante junção da linguagem Python e a biblioteca OpenCv em aplicações robustas e complexas. Dentre as abordagens será destacado o Processamento de Imagens e Visão Computacional.",
+		"role": "Bilioteca OpenCV, detector de bordas.",
+		"classStyle": "back3" 
+	}
+]

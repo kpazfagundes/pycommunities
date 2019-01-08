@@ -1,13 +1,13 @@
 {
-  "main.css": "/pycommunities/static/css/main.025df1dd.chunk.css",
-  "main.js": "/pycommunities/static/js/main.f3a61426.chunk.js",
-  "main.js.map": "/pycommunities/static/js/main.f3a61426.chunk.js.map",
-  "static/js/1.ee859e6f.chunk.js": "/pycommunities/static/js/1.ee859e6f.chunk.js",
-  "static/js/1.ee859e6f.chunk.js.map": "/pycommunities/static/js/1.ee859e6f.chunk.js.map",
+  "main.css": "/pycommunities/static/css/main.275bad95.chunk.css",
+  "main.js": "/pycommunities/static/js/main.94ce5ff6.chunk.js",
+  "main.js.map": "/pycommunities/static/js/main.94ce5ff6.chunk.js.map",
+  "static/js/1.46e8d94e.chunk.js": "/pycommunities/static/js/1.46e8d94e.chunk.js",
+  "static/js/1.46e8d94e.chunk.js.map": "/pycommunities/static/js/1.46e8d94e.chunk.js.map",
   "runtime~main.js": "/pycommunities/static/js/runtime~main.35563e7a.js",
   "runtime~main.js.map": "/pycommunities/static/js/runtime~main.35563e7a.js.map",
-  "static/css/main.025df1dd.chunk.css.map": "/pycommunities/static/css/main.025df1dd.chunk.css.map",
+  "static/css/main.275bad95.chunk.css.map": "/pycommunities/static/css/main.275bad95.chunk.css.map",
   "index.html": "/pycommunities/index.html",
-  "precache-manifest.fc2c7dbbe59c0620bde2d92b101099ed.js": "/pycommunities/precache-manifest.fc2c7dbbe59c0620bde2d92b101099ed.js",
+  "precache-manifest.99c0ba82683bb4dfe1590197d8212fd3.js": "/pycommunities/precache-manifest.99c0ba82683bb4dfe1590197d8212fd3.js",
   "service-worker.js": "/pycommunities/service-worker.js"
 }

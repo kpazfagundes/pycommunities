@@ -85,17 +85,19 @@ const styles = theme => ({
     justifyContent: 'space-around',
     overflow: 'hidden',
     backgroundColor: '#BBDEFB',
+    flexBasis: '95%',
+
 
   },
   gridList: {
     flexWrap: 'nowrap',
     transform: 'translateZ(0)',
   },
-  gridListTile:{
-    flexBasis: '50%',
+   gridListTile1:{
+    flexBasis: '70%',
   },
-  gridListTile1:{
-    flexBasis: '35%',
+  bigIMG: {
+    maxHeight: 150,
   },
  });
 
@@ -105,11 +107,8 @@ function SingleLineGridList(props) {
   return (
     <div className={classes.root}>
       <GridList className={classes.gridList} cols={2}>
-          <GridListTile className={classes.gridListTile} key={"https://raw.githubusercontent.com/kpazfagundes/pycommunities/master/public/pycommex.png"}>
-            <img src={"https://raw.githubusercontent.com/kpazfagundes/pycommunities/master/public/pycommex.png"} alt={"py"} />
-          </GridListTile>
           <GridListTile className={classes.gridListTile1} key={"https://raw.githubusercontent.com/kpazfagundes/pycommunities/master/src/Images/save-the-date.gif"}>
-            <img src={"https://raw.githubusercontent.com/kpazfagundes/pycommunities/master/src/Images/save-the-date.gif"} alt={"save"} />
+            <img className={classes.bigIMG} src={"https://raw.githubusercontent.com/kpazfagundes/pycommunities/master/src/Images/save-the-date.gif"} alt={"save"} />
           </GridListTile>
       </GridList>
     </div>

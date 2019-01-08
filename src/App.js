@@ -120,15 +120,7 @@ class ControlledExpansionPanels extends React.Component {
               </Typography>
             </ExpansionPanelDetails>
           </ExpansionPanel>
-        )}
-        {/* <ExpansionPanel className={classes.back1} expanded={expanded === 'panel5'} onChange={this.handleChange('panel5')}>
-            <ExpansionPanelSummary>
-              <Typography className={classes.headingTop}>Localização: </Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-                <MapContainer/>
-            </ExpansionPanelDetails>
-          </ExpansionPanel> */}
+        )}        
       </div>
     );
   }

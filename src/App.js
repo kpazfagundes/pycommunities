@@ -5,8 +5,10 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Avatar from '@material-ui/core/Avatar';
 import people from './people';
+import Header from './Components/header'
 
 const styles = theme => ({
   root: {
@@ -81,9 +83,11 @@ class ControlledExpansionPanels extends React.Component {
     return (
       <div className={classes.root}>
         <ExpansionPanel className={classes.back1} expanded={expanded === 'panel0'} onChange={this.handleChange('panel0')}>
-          <ExpansionPanelSummary>
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <Typography><Avatar src='./logo.jpg' className={classes.bigAvatar} /></Typography>
             <Typography className={classes.headingTop}>Sobre o evento</Typography>
+            <Typography><Header/></Typography>
+            
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Typography>

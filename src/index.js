@@ -9,7 +9,6 @@ import Header from './Components/header'
 ReactDOM.render(
     <div>
         <img src="./pycommex.png" width='95%' top='10px'/>
-        <p3>26/01/2019 Save the date!!!!</p3>
         <Header/>
         <App/>
         <MapContainer/>

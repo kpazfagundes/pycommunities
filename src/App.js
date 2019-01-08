@@ -84,7 +84,7 @@ class ControlledExpansionPanels extends React.Component {
       <div className={classes.root}>
         <ExpansionPanel className={classes.back1} expanded={expanded === 'panel0'} onChange={this.handleChange('panel0')}>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography><Avatar src='./logo.jpg' className={classes.bigAvatar} /></Typography>
+            <Typography><Avatar src='https://raw.githubusercontent.com/kpazfagundes/pycommunities/master/src/Images/save-the-date.gif' className={classes.bigAvatar} /></Typography>
             <Typography className={classes.headingTop}>Sobre o evento</Typography>            
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>

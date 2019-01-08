@@ -8,8 +8,7 @@ import Header from './Components/header'
 
 ReactDOM.render(
     <div>
-        <img src="./pycommex.png" width='95%' top='10px'/>
-        <Header/>
+        <span><img src="./pycommex.png" width='50%' top='10px'/></span>    
         <App/>
         <MapContainer/>
         

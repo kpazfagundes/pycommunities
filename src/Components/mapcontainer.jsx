@@ -75,7 +75,7 @@ export class MapContainer extends Component {
         initialCenter={{ lat: -19.920293, lng: -43.9198396}}>
         <Marker
           onClick={this.onMarkerClick}
-          name={'PyCommunities Experience: Sede da CI&T (Av. dos andradas, 3000 - Santa Efigênia/Belo Horizonte)'}
+          name={'PyCommunities Experience: Sede da CI&T (Av. dos andradas, 3000 - 3° andar - Santa Efigênia/Belo Horizonte)'}
           
         />
         <InfoWindow

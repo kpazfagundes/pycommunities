@@ -13,7 +13,7 @@ const styles = theme => ({
     width: '95%',
     verticalAlign: 'middle',
     margin: 20,
-    backgroundColor: '#6200EE'
+    backgroundColor: '#4dabf5'
   },
   headingTop: {
     fontSize: theme.typography.pxToRem(18),
@@ -21,7 +21,7 @@ const styles = theme => ({
     flexShrink: 0,
     verticalAlign: 'middle',
     color: '#757575',
-    lineHeight:'100px'
+    lineHeight: '100px'
 
   },
   headingTitle: {
@@ -30,8 +30,8 @@ const styles = theme => ({
     flexBasis: '30%',
     flexShrink: 0,
     verticalAlign: 'middle',
-    color: '#757575',   
-    lineHeight:'100px'
+    color: '#757575',
+    lineHeight: '100px'
 
   },
   heading: {
@@ -39,8 +39,8 @@ const styles = theme => ({
     width: '100%',
     flexShrink: 0,
     verticalAlign: 'middle',
-    color: '#757575', 
-    lineHeight:'50px',
+    color: '#757575',
+    lineHeight: '50px',
     flexBasis: '70%',
 
   },
@@ -49,7 +49,7 @@ const styles = theme => ({
     color: theme.palette.text.secondary,
     margin: 20,
     width: '80%',
-    
+
   },
   back1: {
     backgroundColor: '#ffef62'
@@ -80,32 +80,32 @@ class ControlledExpansionPanels extends React.Component {
 
     return (
       <div className={classes.root}>
-      <ExpansionPanel className={classes.back1} expanded={expanded === 'panel0'} onChange={this.handleChange('panel0')}>
-            <ExpansionPanelSummary>
-              <Typography><Avatar src='./logo.jpg' className={classes.bigAvatar}/></Typography>
-              <Typography className={classes.headingTop}>Sobre o evento</Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <Typography>
-              As comunidades de Python de BH (PyLadies, PyData e PythonBH) se reuniram para fazer o 
-            PyCommunities Experience no dia 26/01/2019 na CI&T. O evento é sem fins lucrativos, que 
+        <ExpansionPanel className={classes.back1} expanded={expanded === 'panel0'} onChange={this.handleChange('panel0')}>
+          <ExpansionPanelSummary>
+            <Typography><Avatar src='./logo.jpg' className={classes.bigAvatar} /></Typography>
+            <Typography className={classes.headingTop}>Sobre o evento</Typography>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails>
+            <Typography>
+              As comunidades de Python de BH (PyLadies, PyData e PythonBH) se reuniram para fazer o
+            PyCommunities Experience no dia 26/01/2019 na CI&T. O evento é sem fins lucrativos, que
             tem como objetivo reunir todas as tribos dessa tecnologia. Vamos compartilhar informações
              e experiências da nossa linguagem favorita que a cada dia vem conquistando cada vez mais
-              espaço no mercado, além de abordar outras coisas muito importantes como inclusão e 
+              espaço no mercado, além de abordar outras coisas muito importantes como inclusão e
               diversidade.
               Se você é um PySer que tem um tema bacana que queira compartilhar, submeta sua palestra
-               no link https://goo.gl/forms/lHRJr8QZP8NdCMiH2 e se você ainda não conseguiu pensar 
+               no <a href="https://goo.gl/forms/lHRJr8QZP8NdCMiH2">link</a> e se você ainda não conseguiu pensar
                num tema bacana para compartilhar, vá no evento e nos ajude a fortalecer a comunidade!
-               *As inscrições para o evento serão recebidas através da plataforma Meetup, no grupo 
-               PythonBH (https://www.meetup.com/pt-BR/PythonMG/)
+               *As inscrições para o evento serão recebidas através da plataforma Meetup, no grupo
+               PythonBH (<a href="https://www.meetup.com/pt-BR/PythonMG/">link</a>)
               </Typography>
-            </ExpansionPanelDetails>
-          </ExpansionPanel>
+          </ExpansionPanelDetails>
+        </ExpansionPanel>
         {people.map((person, i) =>
-        <ExpansionPanel className={classes.back1} expanded={expanded === 'panel' + (i + 1)} onChange={this.handleChange('panel' + (i + 1))}>
+          <ExpansionPanel className={classes.back1} expanded={expanded === 'panel' + (i + 1)} onChange={this.handleChange('panel' + (i + 1))}>
             <ExpansionPanelSummary>
-              <Typography><Avatar src={person.imgSrc} className={classes.bigAvatar}/></Typography>
-              <Typography className={classes.heading}>{person.name}<br/>- {person.title}</Typography>
+              <Typography><Avatar src={person.imgSrc} className={classes.bigAvatar} /></Typography>
+              <Typography className={classes.heading}>{person.name}<br />- {person.title}</Typography>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <Typography>
@@ -119,6 +119,14 @@ class ControlledExpansionPanels extends React.Component {
             </ExpansionPanelDetails>
           </ExpansionPanel>
         )}
+        {/* <ExpansionPanel className={classes.back1} expanded={expanded === 'panel5'} onChange={this.handleChange('panel5')}>
+            <ExpansionPanelSummary>
+              <Typography className={classes.headingTop}>Localização: </Typography>
+            </ExpansionPanelSummary>
+            <ExpansionPanelDetails>
+                <MapContainer/>
+            </ExpansionPanelDetails>
+          </ExpansionPanel> */}
       </div>
     );
   }

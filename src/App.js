@@ -85,9 +85,7 @@ class ControlledExpansionPanels extends React.Component {
         <ExpansionPanel className={classes.back1} expanded={expanded === 'panel0'} onChange={this.handleChange('panel0')}>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <Typography><Avatar src='./logo.jpg' className={classes.bigAvatar} /></Typography>
-            <Typography className={classes.headingTop}>Sobre o evento</Typography>
-            <Typography><Header/></Typography>
-            
+            <Typography className={classes.headingTop}>Sobre o evento</Typography>            
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Typography>
@@ -107,7 +105,7 @@ class ControlledExpansionPanels extends React.Component {
         </ExpansionPanel>
         {people.map((person, i) =>
           <ExpansionPanel className={classes.back1} expanded={expanded === 'panel' + (i + 1)} onChange={this.handleChange('panel' + (i + 1))}>
-            <ExpansionPanelSummary>
+            <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
               <Typography><Avatar src={person.imgSrc} className={classes.bigAvatar} /></Typography>
               <Typography className={classes.heading}>{person.name}<br />- {person.title}</Typography>
             </ExpansionPanelSummary>
